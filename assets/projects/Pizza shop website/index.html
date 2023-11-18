@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Include jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+        <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+        ">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+      
+    
+        <title>Petrucio</title>
+    </head>
+<body>
+    
+    <!-- nav bar starts -->
+    
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-2" href="#"><img src="assets/images/logo (1).png" alt=""></a>
+          <button class="nav-link themebut ms-auto pe-5" id="dark" href="#theme"><i class="fa-solid fa-sun ps-2 Dark"></i></button>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="bars"><i class="fa-solid fa-burger"></i></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="assets/images/logo (2).png" width="150px" alt=""></h5>
+              <button type="button" class="btn shadow-none close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul style="font-weight: 600;" class="navbar-nav justify-content-center flex-grow-1 navword">
+                <li class="nav-item mx-3">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#trending">About</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#Review">Menu</a>
+                </li>
+                
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#Contact">Contact  &nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </li>
+
+                <li class="nav-item">
+                  <button class="nav-link themebtn" href="#theme"><i class="fa-solid fa-sun ps-2 Dark" ></i></button>
+                </li>
+                
+              </ul><br>
+              <div class="button-group mx-5">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- nav bar ends -->
+
+      <!-- Home starts -->
+
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-1">
+                <div class="home-section">
+                    <h1 class="pb-4"><span style="color: orangered;">
+                        Welcome
+                    </span> to The <br>
+                        world of Tasty & <br> Fresh Pizza</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, delectus.</small><br>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, delectus.</small><br>
+                        <a href="" class="btn mt-4 choose-pizza" style="font-weight: 600;">Choose a pizza</a>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2" >
+
+                <img src="assets/images/home.png" class="img-fluid" alt="">
+
+            </div>
+            
+          </div>
+      </div>
+     <br><br>
+
+      <!-- Home ends -->
+
+      <!-- Ingredients start -->
+
+      <div class="container ingre">
+        <h2>Ingredients</h2>
+        <small>Only the Best for You</small>
+        <br><br>
+        <div class="row">
+            
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="card Ingredients ">
+                    <div class="row g-0">
+                        <div class="col-3">
+                            <img src="assets/images/b1.png" alt="" class="ps-3 pt-2">
+                        </div>
+                        <div class="col-9">
+                            <div class="h6 ps-5 pt-4 mt-2">Delicate Dough</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <br>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                <div class="card Ingredients">
+                    <div class="row g-0">
+                        <div class="col-3">
+                            <img src="assets/images/b2.png" alt="" class="ps-3 pt-2 pb-1">
+                        </div>
+                        <div class="col-9">
+                            <div class="h6 ps-5 pt-4 mt-2">Fresh Tomatoes</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <br>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+                <div class="card Ingredients">
+                    <div class="row g-0">
+                        <div class="col-3">
+                            <img src="assets/images/b3.png" alt="" class="ps-1 pt-2 pb-3">
+                        </div>
+                        <div class="col-9">
+                            <div class="h6 ps-5 pt-4 mt-2">Alphine Cheese</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <br>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">
+              <div class="card Ingredients">
+                  <div class="row g-0">
+                      <div class="col-3">
+                          <img src="assets/images/b4.png" alt="" class="ps-1 pt-2 pb-3">
+                      </div>
+                      <div class="col-9">
+                          <div class="h6 ps-5 pt-4 mt-2">Italian Sausage</div>
+                      </div>
+                  </div>
+                  
+              </div>
+              
+              <br>
+          </div>
+          
+        </div>
+
+        
+        
+      </div>
+     
+
+      <!-- Ingredients end -->
+<br><br>
+      <!-- About Starts -->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12 slider-container">
+            <img src="assets/images/a.png" id="pizza" class="slider-img" alt="">
+            <img src="assets/images/about1.png" id="pizza" class="slider-img" alt="">
+            <img src="assets/images/about2.png" id="pizza" class="slider-img" alt="">
+            <img src="assets/images/about3.png" id="pizza" class="slider-img" alt="">
+            <img src="assets/images/about4.png" id="pizza" class="slider-img" alt="">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-12 ">
+            <div class="about1">
+              <h1>The Delicious Food<br><span style="color: orangered;"> For a Good Mood</span> </h1>
+              <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, neque nulla.</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore incidunt totam numquam error consequatur, alias dolor esse accusamus. Blanditiis possimus culpa pizza.</p>
+              <button id="choose" class="btn mt-4 choose-pizza" style="font-weight: 600;">Choose a pizza</button>
+
+            </div>
+         
+          </div>
+        </div>
+
+      </div>
+
+      <!-- About Ends -->
+      <br><br>
+      <!-- Pizza Cards Starts -->
+
+      <div class="container pizcard1">
+        <h2>Most Popular <span style="color: orangered;"> Pizza</span></h2>
+        <p class="pt-2">That You Can't Control Yourself</p>
+        <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <br>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12 pizcard2 mt-3">  
+        <div class="card">   
+          <div class="imghover">
+            <img src="assets/images/m1.jpg" class="img-fluid imgho" alt="">
+          </div>
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <h5>Margarita</h5>
+                <h5 style="color: orange;">$17.00</h5>
+              </div>
+                <small class="text-muted">Lorem ipsum dolor sit amet consectetur essitatibus.</small><br>
+                <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                <i style="color: orange;" class="fa fa-star-half-stroke fa-sm pt-3"></i>
+            </div>
+          </div>
+        </div>
+        <br>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 pizcard2 mt-3">  
+          <div class="card">   
+            <div class="imghover">
+              <img src="assets/images/m2.jpg" class="img-fluid imgho" alt="">
+            </div>
+              
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <h5>Montanara</h5>
+                  <h5 style="color: orange;">$14.00</h5>
+                </div>
+                  <small class="text-muted">Lorem ipsum dolor sit amet consectetur essitatibus.</small><br>
+                  <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                  <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                  <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                  <i style="color: orange;" class="fa fa-star-half-stroke fa-sm pt-3"></i>
+                  <i style="color: orange;" class="fa-regular fa-star fa-sm pt-3"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6 col-12 pizcard2 mt-3">  
+            <div class="card">   
+              <div class="imghover">
+                <img src="assets/images/m4.jpg" class="img-fluid imgho" alt="">
+              </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between">
+                    <h5>Pepperoni</h5>
+                    <h5 style="color: orange;">$20.00</h5>
+                  </div>
+                    <small class="text-muted">Lorem ipsum dolor sit amet consectetur essitatibus.</small><br>
+                    <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                    <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                    <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                    <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                    <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pizcard2 mt-3">  
+              <div class="card">   
+                <div class="imghover">
+                  <img src="assets/images/m3.jpg" class="img-fluid imgho" alt="">
+                </div>
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <h5>Con Came</h5>
+                      <h5 style="color: orange;">$16.00</h5>
+                    </div>
+                      <small class="text-muted">Lorem ipsum dolor sit amet consectetur essitatibus.</small><br>
+                      <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                      <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                      <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                      <i style="color: orange;" class="fa fa-star fa-sm pt-3"></i>
+                      <i style="color: orange;" class="fa fa-star-half-stroke fa-sm pt-3"></i>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+
+      <!-- Pizza Cards Ends -->
+<br><br><br>
+      
+      <!-- Testi starts -->
+      <div class="testi">
+        <div class="container">
+          <h2 class="text-center">Our <span style="color: orangered;"> Testimonials</span></h2>
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators carousel-indicators-test">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testi2 d-flex justify-content-center">
+                  <div class="testip">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quae, maxime ad odit deserunt animi vitae <br> maiores ea amet architecto officiis.</p>
+                    <h5>Monkey D Luffy</h5>
+                    <small>King Of Pirates</small>
+                  </div>
+                  <div class="testiimg">
+                    <img src="assets/images/testi 1.jpg" alt="" width="100px" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testi2 d-flex justify-content-center">
+                  <div class="testip">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quae, maxime ad odit deserunt animi vitae <br> maiores ea amet architecto officiis.</p>
+                    <h5>Roronoa Zoro</h5>
+                    <small>Greatest SwordsMan</small>
+                  </div>
+                  <div class="testiimg">
+                    <img src="assets/images/testi 3.jpg" alt="" width="100px" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testi2 d-flex justify-content-center">
+                  <div class="testip">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quae, maxime ad odit deserunt animi vitae <br> maiores ea amet architecto officiis.</p>
+                    <h5>Vinsmoke Sanji</h5>
+                    <small>Famous Cook</small>
+                  </div>
+                  <div class="testiimg">
+                    <img src="assets/images/testi 2.jpg" alt="" width="100px" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testi2 d-flex justify-content-center">
+                  <div class="testip">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quae, maxime ad odit deserunt animi vitae <br> maiores ea amet architecto officiis.</p>
+                    <h5>Captain Usopp</h5>
+                    <small>Best Shooter</small>
+                  </div>
+                  <div class="testiimg">
+                    <img src="assets/images/testi 4.jpg" alt="" width="100px" class="rounded-circle">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        
+      </div>
+    
+      <!-- Testi ends -->
+<br>
+      <!-- Client starts -->
+      <div class="client-main">
+        <h2 class="text-center mb-5">What Our <span style="color: orangered;">Customer Says</span></h2>
+        <div class="container mb-3">
+          <div id="clientExampleIndicators" class="carousel slide d-none d-md-block" data-bs-ride="carousel">
+            <div class="carousel-indicators client-indicators">
+              <button type="button" data-bs-target="#clientExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#clientExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+                  <div class="card client">
+                    <div class="card-body client-body">
+                      <div class="client-img text-center">
+                        <img src="assets/images/Test 1.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                      </div>
+                      <div class="client-text">
+                        <h4 class="text-center">Steve Rogers</h4>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+                  <div class="card client">
+                    <div class="card-body client-body">
+                      <div class="client-img text-center">
+                        <img src="assets/images/Test 2.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                      </div>
+                      <div class="client-text">
+                        <h4 class="text-center">Chris Evans</h4>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-none d-sm-block">
+                  <div class="card client">
+                    <div class="card-body client-body">
+                      <div class="client-img text-center">
+                        <img src="assets/images/Test 3.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                      </div>
+                      <div class="client-text">
+                        <h4 class="text-center">Natasha</h4>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+               </div>
+              </div>
+              
+              <div class="carousel-item">
+                <div class="row">
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+                   <div class="card client">
+                     <div class="card-body client-body">
+                       <div class="client-img text-center">
+                         <img src="assets/images/Test 1.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                       </div>
+                       <div class="client-text">
+                         <h4 class="text-center">Steve Rogers</h4>
+                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+   
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+                   <div class="card client">
+                     <div class="card-body client-body">
+                       <div class="client-img text-center">
+                         <img src="assets/images/Test 2.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                       </div>
+                       <div class="client-text">
+                         <h4 class="text-center">Chris Evans</h4>
+                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+   
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-none d-sm-block">
+                   <div class="card client">
+                     <div class="card-body client-body">
+                       <div class="client-img text-center">
+                         <img src="assets/images/Test 3.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                       </div>
+                       <div class="client-text">
+                         <h4 class="text-center">Natasha</h4>
+                         <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+   
+                </div>
+               </div>
+             
+            </div>
+           
+          </div>
+
+          <div id="clientsmExampleIndicators" class="carousel slide d-md-none" data-bs-ride="carousel">
+            <div class="carousel-indicators client-sm-indicators">
+              <button type="button" data-bs-target="#clientsmExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#clientsmExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#clientsmExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#clientsmExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#clientsmExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#clientsmExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <div class="row">
+                <div class="col-sm-12 col-12">
+                  <div class="card client">
+                    <div class="card-body client-body">
+                      <div class="client-img text-center">
+                        <img src="assets/images/Test 3.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                      </div>
+                      <div class="client-text">
+                        <h4 class="text-center">Steve Rogers</h4>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+              </div>
+  
+                <div class="carousel-item">
+                  <div class="row">
+                   <div class="col-sm-12 col-12">
+                     <div class="card client">
+                       <div class="card-body client-body">
+                         <div class="client-img text-center">
+                           <img src="assets/images/Test 4.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                         </div>
+                         <div class="client-text">
+                           <h4 class="text-center">Steve Rogers</h4>
+                           <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                  </div>
+                </div>
+
+                   <div class="carousel-item">
+                    <div class="row">
+                     <div class="col-sm-12 col-12">
+                       <div class="card client">
+                         <div class="card-body client-body">
+                           <div class="client-img text-center">
+                             <img src="assets/images/Test 1.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                           </div>
+                           <div class="client-text">
+                             <h4 class="text-center">Steve Rogers</h4>
+                             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                    </div>
+                   </div>
+
+                     <div class="carousel-item">
+                      <div class="row">
+                       <div class="col-sm-12 col-12">
+                         <div class="card client">
+                           <div class="card-body client-body">
+                             <div class="client-img text-center">
+                               <img src="assets/images/Test 2.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                             </div>
+                             <div class="client-text">
+                               <h4 class="text-center">Steve Rogers</h4>
+                               <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                      </div>
+                     </div>
+
+                       <div class="carousel-item">
+                        <div class="row">
+                         <div class="col-sm-12 col-12">
+                           <div class="card client">
+                             <div class="card-body client-body">
+                               <div class="client-img text-center">
+                                 <img src="assets/images/Test 3.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                               </div>
+                               <div class="client-text">
+                                 <h4 class="text-center">Steve Rogers</h4>
+                                 <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                        </div>
+                       </div>
+
+                         <div class="carousel-item">
+                          <div class="row">
+                           <div class="col-sm-12 col-12">
+                             <div class="card client">
+                               <div class="card-body client-body">
+                                 <div class="client-img text-center">
+                                   <img src="assets/images/Test 4.jpg" class="rounded-circle" width="100px" height="100px" alt="">
+                                 </div>
+                                 <div class="client-text">
+                                   <h4 class="text-center">Steve Rogers</h4>
+                                   <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, veritatis!</p>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                          </div>
+                         </div>
+               
+  
+               </div>
+              </div>
+              
+          
+             
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      
+     
+
+      <!-- Client ends -->
+
+      <script>
+        $("document").ready(function(){
+          const img = $(".slider-img");
+          let curIndex = 1;
+
+      function show(){
+       const curImage = img.eq(curIndex);
+        curImage.css("opacity",0);
+
+        curIndex = (curIndex + 1) % img.length;
+
+        const nextImage = img.eq(curIndex);
+        nextImage.css("opacity",1);
+
+        setTimeout(show,2000);
+
+      }
+      show();
+
+          $(".Dark").click(function(){
+            $("body").toggleClass("darkMode");
+            $(".Dark").toggleClass("fa-moon")
+            // if($("body").hasClass("mode")){
+            //   $("#dark").addClass("name","fa-moon");
+            // }else{
+            //   $("#dark").addClass("name","fa-sun");
+            // }
+          });
+        });
+
+    //     // Initial state
+    // var isImage1Visible = true;
+
+    //   // Click event handler for the button
+    //   $('#choose').click(function() {
+    // if (isImage1Visible) {
+    //     $('#pizza').attr('src', 'assets/images/a.png');
+    // }
+    
+    // else {
+    //     $('#pizza').attr('src', 'assets/images/home.png');
+    // }
+
+    // // Toggle the state
+    // isImage1Visible = !isImage1Visible;
+    //    });
+
+        
+      </script>
+
+  <script>
+    $(document).ready(function(){
+     
+    });
+  </script>
+</body>
+</html>

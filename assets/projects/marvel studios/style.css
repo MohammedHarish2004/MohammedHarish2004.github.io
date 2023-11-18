@@ -1,0 +1,131 @@
+#ke{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.bg{
+    background-color: rgb(209, 1, 1);
+    color: white;
+height: 60px;
+padding-top: 5px;
+
+}
+
+nav{
+    background-color: rgb(209, 1, 1);
+    color: white;
+    
+
+}
+
+
+#nab{
+    position:sticky;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+}
+
+
+#a2{
+    border-left: 6px solid rgb(209, 1, 1);
+    height: 20rem;
+    padding-left: 30px;
+    
+}
+
+#ke{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+
+
+
+#ke:hover{
+    transform: scale(1.1);
+}
+
+/* Our Characters Starts  */
+#oc img{
+    transition: 0.5s all;
+}
+#oc img:hover{
+    transform: scale(1.1);
+}
+    /* Our Characters Ends */
+
+    /* Movies Started */
+
+    .card{
+        background-color: ;
+        border: none !important ;
+        box-shadow: 
+        2px 2px 5px rgba(0,0,0,.2),
+        -1px -1px 5px rgba(0,0,0,.2);
+        border-radius: 10px !important;
+
+    }
+
+    .card img{
+        height: 200px;
+        transition: 1s ;
+
+    }
+    .inner{
+        overflow: hidden;
+       
+    }
+
+    .card img:hover{
+        transition: 1s ;
+        transform: scale(1.1);
+    }
+    /* Movies Ends*/
+
+  
+    /* contact us */
+    .cg{
+       background-image: url(Picsart_23-08-16_20-26-21-407.jpg);
+       background-size: cover;
+       background-position: center;
+       
+    }
+    
+.card{
+    margin-top: -3rem;
+    border: 1px solid white;
+    border-radius: 0px;
+}
+    .card-body input{
+       
+        border: none;
+        border-bottom: thin solid black;
+        border-radius: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .card-body textarea:focus{
+        border: 2px solid black;
+    }
+    .card-body textarea{
+        border: none;
+        border-bottom: thin solid black;
+        border-radius: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+    .card-body input:focus{
+        border: 2px solid black;
+    }
+
+    a:hover{
+        color: white;
+        text-decoration: underline;
+    }

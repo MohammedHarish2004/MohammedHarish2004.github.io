@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(Back.jpg);
+    background-position: center;
+    
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    padding: 25px 60px;
+    
+}
+
+nav a img{
+    width: 160px;
+    margin-top: -10px;
+}
+
+.form-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 430px;
+    padding: 60px;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.75);
+    transform: translate(-50%,-50%);
+   
+}
+
+.form-wrapper h2{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.form-wrapper form{
+    margin: 25px 0 65px;
+}
+
+form .form-controll{
+    position: relative;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+.form-controll input{
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.form-controll label{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    color: #8c8c8c;
+    font-size: 1rem;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.1s ease;
+}
+
+.form-controll input:is(:focus,:valid) ~ label {
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+
+.form-controll input:is(:focus,:valid){
+    padding: 16px 20px 0;
+    background-color: #444;
+}
+
+form button{
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: red;
+    border-radius: 4px;
+    margin: 25px 0 10px;
+}
+
+form button:hover{
+    background-color: rgb(204, 0, 0);
+}
+
+form .form-help{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-help a{
+    color: #b3b3b3;
+}
+
+.form-help a:hover{
+    color: #ffffff;
+}
+
+form .remember-me input{
+    margin-right: 5px;
+    accent-color: #b3b3b3;
+}
+.form-wrapper label,p,small,a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.form-wrapper p a{
+    color: #fff;
+}
+
+.form-wrapper small {
+    /* display: block; */
+    margin-top: 10px;
+}
+.form-wrapper small a {
+    color: blue;
+}
+
+.form-wrapper a{
+    text-decoration: none;
+}
+
+.form-wrapper a:hover {
+text-decoration: underline;
+}
+
+@media (max-width: 740px) {
+    body::before {
+        display: none;
+    }
+    nav, .form-wrapper {
+        padding: 20px;
+    }
+    nav a img {
+        width: 140px;
+    }
+    .form-wrapper {
+        top:43%;
+        width: 100%;
+    }
+
+    .form-wrapper form{
+        margin: 25px 0 40px;
+    }
+}

@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(rgb(0, 151, 101),rgb(0, 255, 170));
+    
+}
+
+.home1{
+    padding-top: 9rem;
+}
+.home2{
+    padding-bottom: 7rem;
+    padding-top: 5rem;
+}
+
+.btn-dark{
+    border-radius: 0px !important;
+}
+
+/* about starts */
+.about{
+    background-color: white;
+}
+
+.card{
+    border: thin solid black !important;
+    border-radius: 0px !important;
+}
+/* about ends */
+
+/* Products Starts */
+
+.product{
+    background-color: aquamarine;
+    
+}
+
+.product .pro1{
+    position: relative;
+    top: -2rem;
+}
+
+.product .pro2{
+    padding-top: 4rem;
+}
+
+/* Products Ends */
+
+/* seller starts */
+
+.seller{
+    border: none !important;
+}
+
+/* seller ends */
+
+/* Client starts */
+
+.client{
+    background-color: aquamarine;
+}
+
+.client img{
+   position: relative;
+   top: -2rem;
+}
+
+.client1{
+    position: relative;
+    top: 7rem;
+}
+
+/* Client ends */
+
+/* Input */
+input{
+    border-radius: 0px !important;
+    border: thin solid black !important;
+    
+}
+/* Input Ends*/
+
+/* Footer */
+
+.footer{
+    background-color: aquamarine;
+}
+
+/* Footer Ends*/
+
+/* media quaries */
+/* xs */
+@media (max-width:450px){
+    .client img{
+        position: relative;
+        top: 2rem;
+        right: -0.2rem;
+     }
+    .client1{
+        padding-top: 2rem;
+        position: relative;
+        top: 2rem;
+        font-size: 0.5rem !important;
+        padding-bottom: 2rem;
+    }
+    .home1{
+        padding-top: 0rem !important;
+    }
+    
+    .product .pro1{
+    position: relative;
+    top: 0rem;
+    padding-top: 2rem;
+    }
+    
+    .product .pro2{
+        padding-top: 2rem;
+        
+    }
+    
+}
+
+/* md */
+@media (max-width:768px) {
+    .client1{
+        position: relative;
+        top: 2rem;
+        font-size: 0.5rem !important;
+        padding-bottom: 2rem;
+    }
+}
+/* lg */
+@media (max-width:992px){
+    .sn{
+        display: none !important;
+    }
+
+.home1{
+    padding-top: 0rem !important;
+}
+
+.product .pro1{
+position: relative;
+top: 0rem;
+padding-top: 2rem;
+}
+
+.product .pro2{
+    padding-top: 2rem;
+    
+}
+
+.client1{
+    position: relative;
+    top: 3rem;
+}
+}

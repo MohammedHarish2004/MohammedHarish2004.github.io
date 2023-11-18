@@ -1,0 +1,759 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#nab{
+    position: sticky !important;
+    width: 100%;
+    z-index: 14;
+    top: 0;
+}
+
+#nab .nav-link{
+    color: white;
+}
+
+#nab .nav-link:hover{
+    color:rgb(21, 255, 0);
+}
+
+.drop a{
+   color: white;
+}
+
+.drop .dropdown-item:hover{
+    background-color: #212529;
+    
+    color: rgb(21, 255, 0);
+}
+
+/* Home */
+.home {
+    background-image: url(main\ background\ \(1\).jpg);
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+}
+.h1{
+    margin-top: 152px;
+}
+
+.welcome h4{
+    background-color: #212529;
+    color: rgb(255, 255, 255);
+    width: 300px;
+
+}
+
+.welcome a{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.welcome a:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+/* Card  */
+.card1 {
+    border:thin solid white;
+    width: 230px;
+}
+
+.card1:hover{
+    transition: 0.4s;
+    background-color: #212529;
+    color: white;
+}
+
+/* Card Ends */
+
+/* About */
+
+.about{
+    background-image: url(about-banner.jpg);
+    height: 115vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.about a{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.about a:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+
+/* About Ends */
+
+/* Product  */
+
+
+.pro .card{
+    border: 5px solid black;
+}
+.pro .card{
+    width: 250px;
+    height: 250px;
+    border-radius: 0px;
+    border: 2px solid rgb(238, 238, 238);
+    overflow: hidden;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+
+    
+ 
+
+
+.pro .btn{
+    margin-top: 40px;
+}
+
+.pro .b{
+    color:#ffffff ;
+    background-color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 30rem;
+
+    
+}
+.pro .b:hover{
+    color:#5cb917 ;
+    background-color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 30rem;
+}
+.pro .cb{
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    right: 0;
+    position: absolute;
+    background-color: #343a40;
+    transition: 0.8s;
+
+
+}
+
+.prod a{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: rgb(255, 255, 255);
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.prod a:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.pro:hover .cb{
+    bottom: -50%;
+}
+
+
+@media screen and (min-width:997px){
+    .pro .card{
+        
+        width: 200px;
+    }
+}
+
+/* Product  Ends */
+
+/* Gallery */
+.gal{
+    overflow: hidden;
+    
+  
+
+}
+
+.gall a{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.gall a:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.gal img{
+    transition: 1s;
+}
+.gal img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    
+}
+/* Gallery Ends */
+
+/* Testimonial */
+
+
+
+
+.car{
+    position: relative;
+ top: 450px;
+ z-index: 12;
+ 
+}
+
+.testi .but{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.testi .but:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+
+.carousel-indicators li {
+  width: 14px !important;
+  height: 14px !important;
+ border-radius: 3.2rem !important;
+ z-index: -1;
+}
+
+
+@media screen and (max-width:1200px){
+    .car{
+        position: relative;
+     top: 390px;
+    }
+}
+
+@media screen and (max-width:992px){
+    .car{
+        position: relative;
+     top: 290px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .car{
+        position: relative;
+     top: 220px;
+    }
+}
+
+@media screen and (max-width:577px){
+    .car{
+        position: relative;
+     top: 200px;
+    }
+    .carousel-indicators{
+        display: none!important;
+    }
+}
+/* Testimonial Ends */
+
+/* Contact */
+
+.contact{
+    background-image: url(footer_bg.png);
+    background-size: cover;
+    height: 90vh;
+
+
+
+}
+
+.contact li{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.con a{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    padding: 10px;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    border: 0px thin white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+}
+
+.con a:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.con input{
+    height: 30px;
+    width: 270px;
+    border: 1px thin gray;
+    background: transparent;
+    font-weight: 900;
+}
+
+.con {
+
+}
+
+
+ .c2 a{
+    text-decoration: none !important;
+    color:white ;
+ }
+ .c2 a:hover{
+    color: chartreuse;
+ }
+
+ .c2 i:hover{
+    color: chartreuse;
+ }
+/* Contact Ends*/
+
+/* Footer */
+.foot{
+    background-color: chartreuse;
+    height: 13vh;
+}
+/* Footer Ends*/
+
+
+/* About page */
+.about-us{
+    background-image: url(main\ background\ \(2\).jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about1 a{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    
+}
+
+.about1 a:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.abs .card{
+    border: none !important;
+}
+
+
+/* About page Ends*/
+
+/* Products page  */
+.prohead{
+    background-color: #343a40;
+    margin-top: 20px;
+    height: 40px;
+}
+
+
+
+.pro a{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    
+}
+
+.pro a:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.active{
+   border-bottom: thick solid #5cb917;
+}
+
+
+/* Products page Ends */
+
+/* Contact page  */
+
+.cc input{
+    border: thin solid #4ed33f;
+}
+
+.cc textarea{
+    border: thin solid #4ed33f;
+}
+.conhe .card{
+    background-color: #97e45d;
+    height: 100%;
+    width: 100%;
+}
+
+.c55 button{
+    background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 3.2rem;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    
+}
+
+.c55 button:hover{
+    border:3px solid #5cb917;
+    color:#5cb917 ;
+    background: white;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* Contact page  Ends*/
+
+/* Responsive */
+
+/* xxlarge */
+
+@media screen and (max-width:2653px){
+
+    
+    .contact{ background-image: url(footer_bg.png);
+     background-size: cover;
+     height: 40vh;
+    }
+.c2{
+    margin-top: 50px;
+}
+    
+.about-us h1{
+    font-size: 8em;
+    padding-top: 1.1em;
+    padding-left: 2em;
+}
+
+ }
+
+/* xlarge */
+@media screen and (max-width:2286px){
+    .contact{ background-image: url(footer_bg.png);
+     background-size: cover;
+     height: 80vh;
+    }
+.c2{
+    margin-top: 50px;
+}
+
+.about-us h1{
+    font-size: 6em;
+    padding-top: 1em;
+    padding-left: 0.7em;
+}
+.co1{
+    position: relative;
+left: 20px !important;
+}
+.co2{
+    position: relative;
+left: 20px !important;
+}
+
+ }
+
+/* large */
+@media screen and (max-width:1200px){
+   .contact{ background-image: url(footer_bg.png);
+    background-size: cover;
+    height: 100vh;
+   }
+   
+   .about-us h1{
+    font-size: 6em;
+    padding-top: 1em;
+    padding-left: 0.7em;
+}
+ 
+.co1{
+    position: relative;
+left: -74px;
+}
+.co2{
+    position: relative;
+left: -74px;
+}
+
+.about{
+    background-image: url(about-banner.jpg);
+    height: 140vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+}
+
+/* Medium */
+@media screen and (max-width:992px){
+    .contact{ background-image: url(footer_bg.png);
+     background-size: cover;
+     height: 150vh !important;
+    }
+    
+    .c2 ul{
+        margin-top: 10em;
+    }
+
+    .about-us h1{
+        font-size: 5em;
+        padding-top: 2em;
+        padding-left: 0.8em;
+    }
+
+    .co1{
+        margin-left: -75px !important;
+    }
+    .co2{
+        margin-left: -75px !important;
+    }
+   
+   
+    .prod{
+        margin-top: 10px !important;
+    }
+
+    .home {
+        background-image: url(main\ background\ \(1\).jpg);
+        height: 85vh !important;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .about{
+        background-image: url(about-banner.jpg);
+        height: 140vh;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    .about p{
+        font-size: 15px !important;
+    }
+ }
+
+ /* Small */
+ @media screen and (max-width:768px){
+    .contact{ background-image: url(footer_bg.png);
+     background-size: cover;
+     height: 150vh !important;
+    }
+    
+    .about-us h1{
+        font-size: 4em !important;
+        padding-top: 1em;
+        padding-left: 0.2em;
+    }
+
+
+    .prod{
+        margin-top: 70px;
+    }
+
+    .home {
+        background-image: url(main\ background\ \(1\).jpg);
+        height: 100vh !important;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about{
+        background-image: url(about-banner.jpg);
+        height: 150vh;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    .about p{
+        font-size: 13px !important;
+    }
+
+    .about a{
+        font-size: 13px !important;
+    }
+    .co1{
+        margin-left: -50px !important;
+    }
+    .co2{
+        margin-left: -50px !important;
+    }
+ }
+
+
+
+ /* Extra small */
+
+ @media (max-width:576px){
+    .contact{ background-image: url(footer_bg.png);
+     background-size: cover;
+     height: 300vh !important;
+    }
+    
+    .cn{
+        margin-top: 100px;
+    }
+
+  
+    .about-us h1{
+        font-size: 2em;
+        padding-top: 1em;
+        padding-left: 0em;
+    }
+
+    .co1{
+        margin-left: -30px !important;
+    }
+    .co2{
+        margin-left: -25px !important;
+    }
+
+    
+
+    .prod{
+        margin-top: 50px;
+    }
+
+    .home {
+        background-image: url(main\ background\ \(1\).jpg);
+        height: 120vh !important;
+        background-size: cover;
+        background-position: center;
+    }
+    .alcn{
+        margin-bottom:100px ;
+    }
+
+    .about{
+        background-image: url(about-banner.jpg);
+        height: 130vh;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+
+ }
+
+@media  (max-width:320px) {
+    .welcome a{
+        background:linear-gradient(to right, #0f7404,#5cb917 ) ;
+        color: white;
+        border-radius: 3.2rem;
+        letter-spacing: 1px;
+        border: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 500;
+        width: 130px !important;
+        font-size: 0.8rem !important;
+    }
+
+    .about{
+        background-image: url(about-banner.jpg);
+        height: 160vh;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+}
+/* @media (min-width:768px){
+    .co1{
+        margin-left: -75px;
+    }
+} */
