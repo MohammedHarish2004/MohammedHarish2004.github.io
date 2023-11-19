@@ -42,13 +42,28 @@ nav{
     font-size: 11px;
 }
 
-.home a{
+.home .am{
     border: thin solid orange;
     color: orange;
     font-weight: 600;
 }
 
-.home a:hover{
+.home .dc{
+    color:rgb(0, 0, 0);
+    background-color:orange;
+    font-weight: 600;
+
+}
+
+.home .dc:hover{
+    border: thin solid orange;
+    color: orange;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+
+.home .am:hover{
     border: thin solid orange;
     color: rgb(0, 0, 0);
     background-color: orange;
@@ -164,7 +179,7 @@ color: orange;
 .loc{
     background-color: #2c2e31;
     height: 110px;
-    color: white;
+    color: white ;
 }
 
 .loc i{
@@ -215,10 +230,11 @@ color: orange;
 .cc input,textarea{
     background-color: transparent !important;
     border:thin solid rgb(255, 255, 255) !important;
+    color:white !important;
 }
 
 .cc label{
-    color: #52565a;
+    color: white;
 }
 
 .c55 button{
@@ -246,5 +262,9 @@ color: orange;
     border: thin solid white;
 }
 
+#box{
+    accent-color: orange;
+    
+}
 
 /* contact us Ends*/
